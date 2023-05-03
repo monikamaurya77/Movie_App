@@ -1,0 +1,47 @@
+.main-container {
+  display: flex;
+  /* border: 2px solid yellow; */
+  height: 89vh;
+  padding: 0;
+}
+.right-container {
+  /* border: 2px solid rgb(172, 40, 174); */
+  width: 90%;
+  height: 100vh;
+  padding: 1rem 0rem;
+  background-color: #2b2a34;
+  border-radius: 10px;
+  padding-bottom: 3rem;
+}
+.right-container-first-content {
+  /* border: 2px solid red; */
+  height: 50%;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.right-container-second-content {
+  /* border: 2px solid blue; */
+  height: 50%;
+  padding: 0 1rem;
+}
+.more {
+  width: 8rem;
+  height: 3rem;
+  padding-left: 1rem;
+  margin-top: 0.6rem;
+}
+.more-link {
+  color: white;
+  text-decoration: none;
+}
+.title {
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+.movies-container {
+  display: flex;
+  scroll-behavior: auto;
+  gap: 1rem;
+}

@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    margin: 4rem auto;
+    /* border: 2px solid red; */
+    color: white;
+    height: 80%;
+    width: 70%;
+    box-shadow: #22222e  5px 5px 15px;
+}
+
+.image{
+    width: 40%;
+    /* border: 2px solid rgb(0, 153, 255); */
+}
+
+.right{
+    width: 60%;
+    padding-left: 5rem;
+    margin-top: 2rem;
+}
+
+.input{
+    width: 68%;
+    height: 6.5%;
+    margin-top: -1rem;
+    border-radius: 3px;
+    background-color:  #151523;
+    border: 1px solid #a3a4b1;
+    color: white;
+}
+.input:focus{
+    outline: none;
+    border: 1px solid red;
+}
+.email{
+    font-size: 1.2rem
+}
+
+.password{
+    font-size: 1.2rem
+}
+.sign-in{
+    width: 73%;
+    height: 7%;
+    margin-left: 1rem;
+}
+.forget-password{
+    color: #a3a4b1;
+    margin-left: 47%
+}
+
+.sign-up{
+    margin-left: 16%;
+}

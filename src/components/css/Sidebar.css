@@ -1,0 +1,11 @@
+.left-container{
+    /* border: 2px solid blue; */
+    width: 10%;
+}
+.left-container-items{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #151523;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+button{
+  padding: .5rem 1rem;
+  background-color: #f0233c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover{
+  background-color: red;
+  font-weight: bold;
+}
